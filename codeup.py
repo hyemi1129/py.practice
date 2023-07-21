@@ -26,6 +26,10 @@ a= input()
 n = int(a, 16)
 print('%o'% n) """
 
-
+""" 6030
 a = ord(input())
-print(a)
+print(a) """
+
+
+c = int(input())
+print(chr(c))

@@ -232,3 +232,193 @@ a, b = input().split()
 a = int(a)
 b = int(b)
 print(a&b) """
+
+""" 6061
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a|b) """
+
+""" 6062
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a^b) """
+
+""" 6063
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a if (a>=b) else b) """
+
+""" 6064
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+print((a if a<b else b) if ((a if a<b else b)<c) else c) """
+
+""" 6065
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+if a%2==0 :
+    print(a)
+if b%2==0 :
+    print(b)
+if c%2==0 :
+    print(c) """
+
+""" 6066
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+if a%2==0 :
+    print("even")
+else :
+    print("odd")
+if b%2==0 :
+    print("even")
+else :
+    print("odd")
+if c%2==0 :
+    print("even")
+else :
+    print("odd") """
+
+""" 6067
+a = int(input())
+if a<0 : 
+    if a%2==0 :
+        print("A")
+    else :
+        print("B")
+else :
+    if a%2==0 :
+        print("C")
+    else :
+        print("D") """
+
+""" 6068
+a = int(input())
+if a >= 90 :
+    print('A')
+else :
+    if a>=70 :
+        print('B')
+    else :
+        if a>=40 :
+            print('C')
+        else :
+            print('D') """
+
+""" 6069
+a = input()
+if a == 'A' :
+    print('best!!!')
+else :
+    if a == 'B' :
+        print('good!!')
+    else :
+        if a == 'C' :
+            print('run!')
+        else :
+            if a == 'D' :
+                print('slowly~')
+            else :
+                print('what?') """
+
+""" 6070
+a = int(input())
+if a//3==1 :
+    print("spring")
+elif a//3==2 :
+    print("summer") 
+elif a//3==3:
+    print("fall")
+else :
+    print("winter")
+
+a = int(input())
+if (a == 12 or a == 1 or a == 2) :
+    print("winter")
+elif (a == 3 or a == 4 or a == 5) :
+    print("spring")
+elif (a == 6 or a == 7 or a == 8) :
+    print("summer")
+else :
+    print("fall") """
+
+""" 6071
+while True:
+    a=input()
+    a=int(a)
+    if a==0:
+        break
+    else:
+        print(a) """
+
+""" 6072
+a = int(input())
+while a!=0:
+    print(a)
+    a=a-1 """
+
+""" 6073
+a = int(input())
+while a!=0 :
+    a-=1
+    print(a) """
+
+""" 6074
+a = ord(input())
+b = ord('a')
+while b<=a :
+    print(chr(b), end=' ')
+    b+=1 """
+
+""" 6075
+a = int(input())
+b = 0
+while b<=a :
+    print(b)
+    b+=1 """
+
+""" 6076
+a = int(input())
+for i in range(a+1) :
+    print(i) """
+
+""" 6077
+n = int(input())
+sum = 0
+for i in range(1, n+1) :
+    if i%2==0:
+        sum=sum+i
+print(sum) """
+
+""" 6078
+while True :
+    a = input()
+    print(a)
+    if a == 'q' :
+        break """
+
+""" 6079
+a = int(input())
+b = 0
+c = 0
+while b < a :
+    c += 1
+    b += c
+print(c) """
+
+
+a, b = input().split()
+a = int(a)
+b = int(b)
+for i in range(1, a+1) :
+    for j in range(1, b+1) :
+        print(i, j)

@@ -423,3 +423,19 @@ b = int(b)
 for i in range(1, a+1) :
     for j in range(1, b+1) :
         print(i, j) """
+
+""" 6081
+n = int(input(), 16)
+
+for i in range(1, 16) :
+  print('%X'%n, '*%X'%i, '=%X'%(n*i), sep='') """
+
+""" 6082
+n = int(input())
+for i in range(1, n+1) :
+    if i%10==3 or i%10==6 or i%10==9 :
+        print("X", end=' ')
+    else :
+        print(i, end=' ') """
+
+

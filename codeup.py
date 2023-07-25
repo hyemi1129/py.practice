@@ -452,5 +452,4 @@ for i in range(0, r) :
 
 print(r*g*b) """
 
-
----- end ---
+""" end """

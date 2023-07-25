@@ -438,11 +438,19 @@ for i in range(1, n+1) :
     else :
         print(i, end=' ') """
 
+""" 6083
+r, g, b = input().split()
 
-r, g, b = map(int, input().split())
+r = int(r)
+g = int(g)
+b = int(b)
+
 for i in range(0, r) :
-    for j in range(0,g) :
-        for k in range(0, b) :
-            print(i, j, b) 
+  for j in range(0, g) :
+    for k in range(0, b) :
+      print(i, j, k)
 
-print(r*g*b)
+print(r*g*b) """
+
+
+---- end ---

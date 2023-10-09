@@ -453,3 +453,16 @@ for i in range(0, r) :
 print(r*g*b) """
 
 """ end """
+
+""" list 공부하기.. """
+
+""" def a(n):
+    if not n:
+        return 0
+
+        return n[0] + a(n[1:])
+
+my_list = [1, 2, 3, 4, 5]
+
+result = a(my_list)
+print(result) """
